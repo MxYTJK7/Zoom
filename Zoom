@@ -1,0 +1,14 @@
+==== Download Zoom ====
+
++ sudo su
++ cd /usr/local/src/
++ wget https://zoom.us/client/latest/zoom_amd64.deb
+
+==== Instalasi Zoom ====
+
++ sudo su
++ sudo apt -y install gdebi libxcb-xtest0 libgl1-mesa-glx libegl1-mesa libxcb-xinerama0
++ cd /usr/local/src
++ dpkg -i zoom_amd64.deb
+
+==== Thank you very much :) ====
